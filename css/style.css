@@ -1,0 +1,85 @@
+body {
+  font-family: Roboto;
+}
+.d-none {
+  display: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+.text-center {
+  text-align: center;
+}
+.text-01 {
+  color: #ec3237;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 130%;
+  margin-bottom: 6px;
+}
+.text-02 {
+  color: #0a5c36;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 130%;
+}
+.text-03 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 130%;
+  margin-bottom: 6px;
+}
+.hotline-box {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 8px 32px 8px;
+}
+.hotline {
+  color: #0a5c36;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 130%;
+  margin-bottom: 4px;
+}
+.phone-number {
+  color: #0a5c36;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 130%;
+  letter-spacing: 1px;
+}
+.navbar {
+  background-color: #0a5c36;
+  height: 45px;
+}
+.full-screen {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 45px);
+}
+.main-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-nxb {
+  width: 500px;
+  margin: auto;
+}
