@@ -1,13 +1,13 @@
 {
-  "name": "app-desktop-quan-su",
+  "name": "nxb-qdnd",
   "version": "1.0.0",
-  "description": "Ứng dụng xây dựng cho nhà Quân Sự",
+  "description": "Ứng dụng xây dựng cho Nhà xuất bản Quân Đội Nhân Dân",
   "author": "haitemobi",
   "main": "electron/main.js",
   "license": "UNLICENSED",
   "build": {
-    "appId": "app-desktop-quan-su",
-    "productName": "app-desktop-quan-su",
+    "appId": "NXB-QDND",
+    "productName": "NXB-QDND",
     "win": {
       "target": "nsis",
       "icon": "icons/logo.png"

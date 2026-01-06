@@ -15,7 +15,7 @@ const dns = require("dns");
 autoUpdater.autoDownload = false;
 autoUpdater.autoInstallOnAppQuit = true;
 
-const appName = "app-desktop-quan-su";
+const appName = "NXB-QDND";
 app.setPath("userData", path.join(app.getPath("appData"), appName));
 // QUAN TRỌNG: Bỏ qua lỗi chứng chỉ bảo mật (cho các web https tự ký nội bộ)
 // Nếu không có dòng này, vào web nội bộ https sẽ bị chặn.
